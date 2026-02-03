@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
@@ -11,15 +10,9 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <div className="max-w-6xl mx-auto px-6 py-3 md:py-5 lg:py-6 flex items-center justify-between">
-        <Link href="/" className="group flex items-center">
-          <Image
-            src="/HorizontalLogo.svg"
-            alt="Richelle Tiongson"
-            width={160}
-            height={31}
-            className="h-9 w-auto md:h-12"
-            priority
-          />
+        <Link href="/" className="group">
+          <span className="text-lg font-medium text-foreground">Richelle Tiongson</span>
+          <span className="block text-sm text-muted-foreground">Digital Product Designer</span>
         </Link>
 
         {/* Desktop Navigation */}

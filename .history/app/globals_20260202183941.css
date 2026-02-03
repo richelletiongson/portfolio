@@ -5,7 +5,6 @@
 
 /* Palette: Pantone 4975 C, 7499 C, 187 C, 7510 C, 7421 C, Black 6 C */
 :root {
-  /* Base */
   --color-dark-brown: #402020;
   --color-cream: #f1e4b2;
   --color-red: #aa182c;
@@ -13,41 +12,24 @@
   --color-wine: #691c32;
   --color-navy: #101820;
 
-  /* Lighter variants */
-  --color-dark-brown-lighter: #5c3535;
-  --color-cream-lighter: #faf6e8;
-  --color-cream-lightest: #fdfbf7;
-  --color-red-lighter: #c91f38;
-  --color-ochre-lighter: #d9a55f;
-  --color-wine-lighter: #8b2542;
-  --color-navy-lighter: #1e2a38;
-
-  /* Darker variants */
-  --color-dark-brown-darker: #2d1717;
-  --color-cream-darker: #e5d89a;
-  --color-red-darker: #8a1323;
-  --color-ochre-darker: #a06d2e;
-  --color-wine-darker: #4d1525;
-  --color-navy-darker: #0a0f14;
-
-  --background: var(--color-cream-lightest);
+  --background: var(--color-cream);
   --foreground: var(--color-navy);
-  --card: var(--color-cream-lightest);
+  --card: var(--color-cream);
   --card-foreground: var(--color-navy);
-  --popover: var(--color-cream-lightest);
+  --popover: var(--color-cream);
   --popover-foreground: var(--color-navy);
   --primary: var(--color-red);
-  --primary-foreground: var(--color-cream-lightest);
+  --primary-foreground: var(--color-cream);
   --secondary: var(--color-ochre);
   --secondary-foreground: var(--color-navy);
-  --muted: var(--color-cream-lighter);
+  --muted: color-mix(in srgb, var(--color-ochre) 25%, var(--color-cream));
   --muted-foreground: var(--color-dark-brown);
   --accent: var(--color-ochre);
   --accent-foreground: var(--color-navy);
   --destructive: var(--color-red);
-  --destructive-foreground: var(--color-cream-lightest);
-  --border: color-mix(in srgb, var(--color-dark-brown) 18%, var(--color-cream-lightest));
-  --input: color-mix(in srgb, var(--color-ochre) 15%, var(--color-cream-lightest));
+  --destructive-foreground: var(--color-cream);
+  --border: color-mix(in srgb, var(--color-dark-brown) 35%, var(--color-cream));
+  --input: color-mix(in srgb, var(--color-dark-brown) 25%, var(--color-cream));
   --ring: var(--color-red);
   --chart-1: var(--color-red);
   --chart-2: var(--color-ochre);
@@ -55,45 +37,45 @@
   --chart-4: var(--color-dark-brown);
   --chart-5: var(--color-navy);
   --radius: 0.5rem;
-  --sidebar: var(--color-cream-lightest);
+  --sidebar: var(--color-cream);
   --sidebar-foreground: var(--color-navy);
   --sidebar-primary: var(--color-red);
-  --sidebar-primary-foreground: var(--color-cream-lightest);
+  --sidebar-primary-foreground: var(--color-cream);
   --sidebar-accent: var(--color-ochre);
   --sidebar-accent-foreground: var(--color-navy);
-  --sidebar-border: color-mix(in srgb, var(--color-dark-brown) 18%, var(--color-cream-lightest));
+  --sidebar-border: color-mix(in srgb, var(--color-dark-brown) 35%, var(--color-cream));
   --sidebar-ring: var(--color-red);
 }
 
 .dark {
   --background: var(--color-navy);
   --foreground: var(--color-cream);
-  --card: var(--color-navy-darker);
+  --card: var(--color-navy);
   --card-foreground: var(--color-cream);
   --popover: var(--color-navy);
   --popover-foreground: var(--color-cream);
   --primary: var(--color-red);
-  --primary-foreground: var(--color-cream-lightest);
+  --primary-foreground: var(--color-cream);
   --secondary: var(--color-wine);
   --secondary-foreground: var(--color-cream);
-  --muted: var(--color-navy-lighter);
-  --muted-foreground: var(--color-cream-darker);
+  --muted: var(--color-dark-brown);
+  --muted-foreground: var(--color-cream);
   --accent: var(--color-ochre);
   --accent-foreground: var(--color-navy);
   --destructive: var(--color-red);
-  --destructive-foreground: var(--color-cream-lightest);
-  --border: var(--color-wine-darker);
-  --input: var(--color-navy-lighter);
+  --destructive-foreground: var(--color-cream);
+  --border: color-mix(in srgb, var(--color-wine) 60%, var(--color-navy));
+  --input: var(--color-dark-brown);
   --ring: var(--color-red);
   --chart-1: var(--color-red);
   --chart-2: var(--color-ochre);
   --chart-3: var(--color-wine);
   --chart-4: var(--color-cream);
   --chart-5: var(--color-ochre);
-  --sidebar: var(--color-dark-brown-darker);
+  --sidebar: var(--color-dark-brown);
   --sidebar-foreground: var(--color-cream);
   --sidebar-primary: var(--color-red);
-  --sidebar-primary-foreground: var(--color-cream-lightest);
+  --sidebar-primary-foreground: var(--color-cream);
   --sidebar-accent: var(--color-ochre);
   --sidebar-accent-foreground: var(--color-navy);
   --sidebar-border: var(--color-wine);

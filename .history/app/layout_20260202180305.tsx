@@ -39,11 +39,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={raleway.variable}>
+    <html lang="en">
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/fcn3yta.css" />
       </head>
-      <body className="font-sans antialiased">
+      <body className={`${raleway.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

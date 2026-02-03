@@ -17,7 +17,7 @@ export function Header() {
             alt="Richelle Tiongson"
             width={160}
             height={31}
-            className="h-9 w-auto md:h-12"
+            className="h-7 w-auto md:h-8"
             priority
           />
         </Link>

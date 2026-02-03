@@ -5,7 +5,7 @@ import Link from "next/link"
 export function Hero() {
   return (
     <section className="min-h-[90vh] flex flex-col pt-24 pb-16 px-6">
-      <div className="max-w-6xl mx-auto w-full mt-0 md:mt-8 lg:mt-14 xl:mt-20">
+      <div className="max-w-6xl mx-auto w-full mt-0 md:mt-8 lg:mt-16 xl:mt-24">
         <p className="text-sm text-muted-foreground mb-4">Good afternoon</p>
         <h1 className="text-3xl md:text-4xl lg:text-5xl leading-relaxed text-balance max-w-3xl mb-8">
           {"I'm an independent digital product designer. While design is my primary focus, I regularly work with code, believing that understanding the technical foundations leads to more thoughtful designs."}
